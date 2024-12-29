@@ -29,11 +29,7 @@ const Hero = () => {
       opacity: 1,
       y: -50,
       delay: 2,
-      stagger: {
-        amount: 0.2,
-        axis: 'y',
-        grid: [1, 1]
-      }
+      stagger: 0.25,
     })
   }, [])
 
